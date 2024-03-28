@@ -1,0 +1,29 @@
+{
+  "name": "rag-llm-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auliahanifan/rag-llm-poc.git"
+  },
+  "author": "Aulia Hanifan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auliahanifan/rag-llm-poc/issues"
+  },
+  "homepage": "https://github.com/auliahanifan/rag-llm-poc#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
